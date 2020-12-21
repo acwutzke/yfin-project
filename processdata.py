@@ -1,7 +1,9 @@
 import datetime
 import pandas
 
-data = pandas.read_csv("2020-11-13-15-36-03.csv")
+fl = input("Name of csv file:")
+
+data = pandas.read_csv(fl + ".csv")
 
 
 col=data.columns.tolist()
